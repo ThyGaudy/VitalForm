@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Deep Space background -->
+  <rect width="512" height="512" fill="#080C14"/>
+  <!-- Teal rounded square -->
+  <rect x="56" y="56" width="400" height="400" rx="90" fill="#00D4B4"/>
+  <!-- V (polyline stroke, round joins) -->
+  <polyline points="96,145 171,340 246,145"
+            fill="none"
+            stroke="#080C14"
+            stroke-width="42"
+            stroke-linecap="round"
+            stroke-linejoin="round"/>
+  <!-- F (filled polygon) -->
+  <path d="M 266 145 L 416 145 L 416 190 L 306 190 L 306 225 L 386 225 L 386 268 L 306 268 L 306 340 L 266 340 Z"
+        fill="#080C14"/>
+</svg>
